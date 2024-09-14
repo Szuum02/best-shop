@@ -225,3 +225,166 @@
   width: 100%;
   height: 100%;
 }
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.pricing-header {
+  font-family: Raleway;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.pricing-elements-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans";
+}
+
+.pricing-element {
+  width: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 18px;
+  position: relative;
+  padding: 34px 0 81px 0;
+}
+
+.pricing-element-header {
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+.pricing-little-element-header {
+  font-size: 20px;
+}
+
+.pricing-element-price {
+  font-weight: 300;
+  font-size: 46px;
+  margin-top: 14px;
+}
+
+.pricing-first-price {
+  color: #fb3b64;
+  margin-bottom: 69px;
+}
+
+.pricing-element-text {
+  font-size: 14px;
+  line-height: 41px;
+  padding-bottom: 20px;
+}
+
+.pricing-element-text::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pricing-element-checked::before {
+  background-image: url("../assets/Ckechmark-1.svg");
+}
+
+.pricing-element-unchecked::before {
+  background-image: url("../assets/Close.svg");
+}
+
+.checked-box {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #55dfb4;
+  border-radius: 2px;
+}
+
+.unchecked-box {
+  display: inline-block;
+  width: 11px;
+  height: 10px;
+  color: #eb476e;
+  border: 1px solid #eb476e;
+  border-radius: 2px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 9px;
+  text-align: center;
+}
+
+.pricing-button {
+  width: 150px;
+  padding: 16px 0;
+  border-radius: 23px;
+  position: absolute;
+  bottom: -25px;
+}
+
+.pricing-first-button {
+  background-color: #eb476e;
+}
+
+.pricing-first-element {
+  border-color: #fb3b64;
+}
+
+.pricing-last-price {
+  color: #55dfb4;
+}
+
+.pricing-last-button {
+  background-color: #55dfb4;
+}
+
+.pricing-last-element {
+  border-color: #55dfb4;
+}
+
+.pricing-limited-offer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 12px;
+  color: #13253b;
+  margin-top: 5px;
+}
+
+.pricing-last-limited-offer {
+  margin-bottom: 50px;
+}
+
+.pricing-big-element {
+  width: 405px;
+  box-shadow: 5px 10px 27px #07ace629;
+  border-color: #07ace6;
+}
+
+.pricing-big-element-header {
+  font-size: 21px;
+}
+
+.pricing-big-price {
+  color: #07ace6;
+}
+
+.pricing-big-limited-offer {
+  margin-bottom: 61px;
+}
+
+.pricing-big-element-text {
+  padding-bottom: 26px;
+}
+
+.pricing-big-button {
+  width: 165px;
+  background-color: #07ace6;
+  box-shadow: 5px 10px 14px #07ace629;
+}
