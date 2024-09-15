@@ -388,3 +388,119 @@
   background-color: #07ace6;
   box-shadow: 5px 10px 14px #07ace629;
 }
+
+.contact {
+  margin-top: 179px;
+  margin-bottom: 59px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 114px;
+}
+
+.contact-header {
+  font-family: Raleway;
+  font-size: 49px;
+  line-height: 57px;
+}
+
+.contact-description {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 22px;
+  padding: 22px 0 40px 0;
+}
+
+.contact-infos-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-info-mail {
+  margin-right: 10px;
+}
+
+.contact-info-icon {
+  width: 27px;
+  height: 27px;
+}
+
+.contact-info-details {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #a5a5a5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+}
+
+.label {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.28px;
+  color: #08a6e4;
+}
+
+.text-input {
+  height: 42px;
+  border: none;
+  border-bottom: 1px solid #95989a;
+}
+
+.email-label {
+  margin-top: 42px;
+}
+
+.contact-form-agreement {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.checkbox {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+  outline: none;
+}
+
+.checkbox:checked {
+  background-image: url("../assets/Checkmark.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 12px 11px;
+  background-position: center;
+}
+
+.contact-form-agreement-text {
+  width: 405px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 17px;
+  color: #707070;
+}
+
+.contact-form-button {
+  margin-top: 20px;
+  padding: 20px 0;
+  width: 226px;
+  background-color: #08a6e4;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 5px 10px 14px #07ace629;
+  align-self: flex-end;
+}
